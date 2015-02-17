@@ -16,7 +16,7 @@ module CocoaPodsKeys
 
       PreInstaller.new(user_options).setup
       # Add our template podspec (needs to be remote, not local).
-      podfile.pod 'Keys', :git => 'https://github.com/petester42/empty-podspec.git'
+      podfile.pod 'Keys', :git => 'https://github.com/MARS-Inc/empty-podspec.git'
     end
 
     private
